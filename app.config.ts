@@ -34,7 +34,8 @@ module.exports =
       adaptiveIcon: {
         foregroundImage: "./assets/adaptive-icon.png",
         backgroundColor: "#ffffff"
-      }
+      },
+      package: getPackage()
     },
     web: {
       favicon: "./assets/favicon.png"
