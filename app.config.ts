@@ -37,9 +37,14 @@ module.exports =
       },
       package: getPackage()
     },
-    web: {
-      favicon: "./assets/favicon.png"
+    
+    updates: {
+      url: "https://u.expo.dev/dfe12262-05da-4208-bbb7-eb8fc0236060"
     },
+    runtimeVersion: {
+      policy: "sdkVersion"
+    },
+    
     extra: {
       eas: {
         projectId: "dfe12262-05da-4208-bbb7-eb8fc0236060"
